@@ -10,6 +10,6 @@ rm -f /v2ray/v2ctl
 wget https://github.com/teasiu/goorm-v2ray/raw/master/v2ctl
 chmod +x /v2ray/v2ctl
 rm -f /v2ray/config.json
-wget https://github.com/teasiu/goorm-v2ray/raw/master/config.json
+wget https://github.com/beyqcnh/goorv/blob/master/config.json
 # 开始后台运行
 nohup /v2ray/v2ray -config=/v2ray/config.json >out.txt 2>&1 &
